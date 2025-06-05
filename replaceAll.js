@@ -9,3 +9,9 @@ function isSubstring(phrase, part) {
 }
 
 console.log(isSubstring("mulyono anak haram konstitusi", "ono"));
+
+function getPosition(text, word) {
+return text.indexOf(word);
+}
+
+console.log(getPosition("mulyono anak haram konstitusi", "anak"));  
