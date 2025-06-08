@@ -1,5 +1,5 @@
 const prices = [10,30,34,86,77,181,14];
-console.log(prices.length); // 7
+console.log(`jumlah data array prices adalah : ${prices.length}`); // 7
     
 // itung total cara 1
 const totalPrice = getSum(prices);
@@ -10,7 +10,7 @@ function getSum(prices) {
     for (let i = 0; i < prices.length; i++) {
         total += prices[i];
     }
-    return total;
+    return `jumlah prices (for loop) adalah : ${total}`;
 }
 
 
@@ -24,5 +24,5 @@ function getSUM(prices) {
     for (let price of prices){
         total += price;
     }
-    return total;
+    return `jumlah prices (for of) adalah : ${total}`;
     }
